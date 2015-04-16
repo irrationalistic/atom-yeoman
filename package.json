@@ -2,15 +2,19 @@
   "name": "yeoman",
   "main": "./lib/yeoman",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Utility for scaffolding out a project using yeoman",
   "activationCommands": {
     "atom-workspace": "yeoman:toggle"
   },
-  "repository": "https://github.com/atom/yeoman",
+  "repository": "https://github.com/irrationalistic/atom-yeoman",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
+    "atom-space-pen-views": "^2.0.5",
+    "loophole": "^1.0.0",
+    "pty.js": "^0.2.0",
+    "yeoman-environment": "^1.2.5"
   }
 }
